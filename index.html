@@ -25,7 +25,7 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <div class="header-spacer" aria-hidden="true"></div>
+  <!-- @header -->
   <header class="site-header" id="top">
     <div class="container header-inner">
       <a href="#home" class="brand" aria-label="Storylane Studios — home">
@@ -39,12 +39,13 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#process">Process</a></li>
         </ul>
-        <a href="#contact" class="btn-outline nav-cta-mobile">Start Your Story <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+        <a href="contact.html" class="btn-outline nav-cta-mobile">Start Your Story <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
       </nav>
-      <a href="#contact" class="btn-outline nav-cta">Start Your Story <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      <a href="contact.html" class="btn-outline nav-cta">Start Your Story <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
       <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
     </div>
   </header>
+  <!-- /@header -->
 
   <main id="main">
     <!-- HERO -->
@@ -144,12 +145,12 @@
           <p class="lead underline">Behind every piece of work is a story waiting to be told. Here are a few we’ve had the privilege of bringing to life.</p>
         </div>
         <ul class="work-grid">
-          <li class="work-card reveal"><img src="assets/img/work-commercial.webp" alt="ROAR energy drink commercial ad" width="820" height="680" loading="lazy"><h3>Commercial Ads &amp; Brand Films</h3></li>
-          <li class="work-card reveal"><img src="assets/img/work-product.webp" alt="Product photography of a black chronograph watch" width="820" height="680" loading="lazy"><h3>Product Photography</h3></li>
-          <li class="work-card reveal"><img src="assets/img/work-websites.webp" alt="Eysta eyewear website design" width="820" height="680" loading="lazy"><h3>Websites &amp; Digital Experiences</h3></li>
-          <li class="work-card reveal"><img src="assets/img/work-reels.webp" alt="Short-form reel shot on a rainy Mumbai street" width="820" height="680" loading="lazy"><h3>Short-Form Content &amp; Reels</h3></li>
-          <li class="work-card reveal"><img src="assets/img/work-brand-integration.webp" alt="Brand integration campaign scene with two actors" width="820" height="680" loading="lazy"><h3>Brand Integration Campaigns</h3></li>
-          <li class="work-card reveal"><img src="assets/img/work-social.webp" alt="Social media content shot at night" width="820" height="680" loading="lazy"><h3>Social Media Management</h3></li>
+          <li class="work-card reveal"><a href="work-commercial.html"><img src="assets/img/work-commercial.webp" alt="ROAR energy drink ad film — Power-up and Roar" width="820" height="680" loading="lazy"><h3>Commercial Ads &amp; Brand Films</h3></a></li>
+          <li class="work-card reveal"><a href="work-product-photography.html"><img src="assets/img/work-product.webp" alt="Two pairs of sunglasses on an orange and cream backdrop" width="820" height="680" loading="lazy"><h3>Product Photography</h3></a></li>
+          <li class="work-card reveal"><a href="work-websites.html"><img src="assets/img/work-websites.webp" alt="Eysta eyewear website design" width="820" height="680" loading="lazy"><h3>Websites &amp; Digital Experiences</h3></a></li>
+          <li class="work-card reveal"><a href="work-short-form.html"><img src="assets/img/work-reels.webp" alt="Two friends sharing a snack by the sea in a short-form reel" width="820" height="680" loading="lazy"><h3>Short-Form Content &amp; Reels</h3></a></li>
+          <li class="work-card reveal"><a href="work-brand-integration.html"><img src="assets/img/work-brand-integration.webp" alt="Couple at a pottery wheel in a brand integration campaign" width="820" height="680" loading="lazy"><h3>Brand Integration Campaigns</h3></a></li>
+          <li class="work-card reveal"><a href="work-social-media.html"><img src="assets/img/work-social.webp" alt="eysta.eyewear Instagram profile managed by Storylane Studios" width="820" height="680" loading="lazy"><h3>Social Media Management</h3></a></li>
         </ul>
       </div>
     </section>
@@ -168,7 +169,7 @@
               <span class="svc-num">01.</span><span class="svc-pill">Story DNA</span>
             </button>
             <div class="svc-body" id="svc-b1" role="region" aria-labelledby="svc-h1"><div class="svc-inner">
-              <div class="svc-text"><h3>Brand Identity &amp; Positioning</h3><p>Defining the visual identity, voice, and personality that make your brand unique.</p></div>
+              <div class="svc-text"><h3>Brand Identity &amp; Positioning</h3><p>Defining the visual identity, voice, and personality that make your brand unique.</p><a class="svc-more" href="story-dna.html">Explore Story DNA <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>
               <div class="svc-media"><img src="assets/img/studio-still.webp" alt="Storylane studio session" width="820" height="460" loading="lazy"></div>
             </div></div>
           </li>
@@ -398,11 +399,12 @@
       <div class="container">
         <h2 id="cta-title" class="display">Ready to Start Your Story?</h2>
         <p>No pressure. No obligation.<br>Just a conversation about what’s possible.</p>
-        <a class="btn-amber" href="mailto:hello@storylanestudios.in?subject=Let%E2%80%99s%20talk%20about%20my%20story">Let’s Talk</a>
+        <a class="btn-amber" href="contact.html">Let’s Talk</a>
       </div>
     </section>
   </main>
 
+  <!-- @footer -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
@@ -411,10 +413,10 @@
           <p>Turning brands into stories<br>worth remembering.</p>
           <p class="founded">Founded by <a href="#founder">Ayush Jain</a></p>
           <ul class="socials">
-            <li><a href="mailto:hello@storylanestudios.in" aria-label="Email"><img src="assets/img/icon-mail.png" alt="" width="58" height="58" loading="lazy"></a></li>
-            <li><a href="tel:+910000000000" aria-label="Call"><img src="assets/img/icon-phone.png" alt="" width="58" height="58" loading="lazy"></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><img src="assets/img/icon-instagram.png" alt="" width="58" height="58" loading="lazy"></a></li>
-            <li><a href="https://wa.me/910000000000" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="assets/img/icon-whatsapp.png" alt="" width="58" height="58" loading="lazy"></a></li>
+            <li><a href="mailto:connect.storylanestudios@gmail.com" aria-label="Email connect.storylanestudios@gmail.com"><img src="assets/img/icon-mail.png" alt="" width="58" height="58" loading="lazy"></a></li>
+            <li><a href="tel:+918218527215" aria-label="Call +91 8218527215"><img src="assets/img/icon-phone.png" alt="" width="58" height="58" loading="lazy"></a></li>
+            <li><a href="https://www.instagram.com/storylane.studios/" target="_blank" rel="noopener" aria-label="Instagram @storylane.studios"><img src="assets/img/icon-instagram.png" alt="" width="58" height="58" loading="lazy"></a></li>
+            <li><a href="https://wa.me/918218527215" target="_blank" rel="noopener" aria-label="WhatsApp +91 8218527215"><img src="assets/img/icon-whatsapp.png" alt="" width="58" height="58" loading="lazy"></a></li>
           </ul>
         </div>
         <nav class="footer-col" aria-label="Quick links">
@@ -427,21 +429,21 @@
             <li><a href="#founder">Founder</a></li>
             <li><a href="#process">Process</a></li>
             <li><a href="#faq">FAQ</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
         <div class="footer-col">
           <h2>Services</h2>
           <ul>
-            <li><a href="#services" data-svc="0">Brand Identity &amp; Positioning</a></li>
-            <li><a href="#services" data-svc="1">Websites &amp; Digital Experiences</a></li>
-            <li><a href="#services" data-svc="2">Commercial Ads &amp; Brand Films</a></li>
-            <li><a href="#services" data-svc="3">Product Photography</a></li>
-            <li><a href="#services" data-svc="4">Short-Form Content &amp; Reels</a></li>
-            <li><a href="#services" data-svc="5">Social Media Management &amp; Content Strategy</a></li>
-            <li><a href="#services" data-svc="6">Brand Integration Campaigns</a></li>
-            <li><a href="#services" data-svc="7">Performance Marketing</a></li>
-            <li><a href="#services" data-svc="8">Film Production</a></li>
+            <li><a href="story-dna.html">Brand Identity &amp; Positioning</a></li>
+            <li><a href="work-websites.html">Websites &amp; Digital Experiences</a></li>
+            <li><a href="work-commercial.html">Commercial Ads &amp; Brand Films</a></li>
+            <li><a href="work-product-photography.html">Product Photography</a></li>
+            <li><a href="work-short-form.html">Short-Form Content &amp; Reels</a></li>
+            <li><a href="work-social-media.html">Social Media Management &amp; Content Strategy</a></li>
+            <li><a href="work-brand-integration.html">Brand Integration Campaigns</a></li>
+            <li><a href="index.html#services">Performance Marketing</a></li>
+            <li><a href="index.html#services">Film Production</a></li>
           </ul>
         </div>
       </div>
@@ -454,6 +456,7 @@
       </div>
     </div>
   </footer>
+  <!-- /@footer -->
 
   <script src="assets/js/main.js" defer></script>
 </body>

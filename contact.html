@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Storylane Studios</title>
+  <meta name="description" content="Contact Storylane Studios, Mumbai — tell us about your brand and start your story.">
+  <meta name="theme-color" content="#0a0a0c">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact — Storylane Studios">
+  <meta property="og:description" content="Contact Storylane Studios, Mumbai — tell us about your brand and start your story.">
+  <meta property="og:image" content="assets/img/studio-still.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- @header -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html#home" class="brand" aria-label="Storylane Studios — home">
+        <img src="assets/img/logo.png" alt="Storylane Studios" width="140" height="65">
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#our-story">Our Story</a></li>
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#process">Process</a></li>
+        </ul>
+        <a href="contact.html" class="btn-outline nav-cta-mobile">Start Your Story <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      </nav>
+      <a href="contact.html" class="btn-outline nav-cta">Start Your Story <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+    </div>
+  </header>
+  <!-- /@header -->
+
+  <main id="main" class="page-main">
+    <section class="contact-hero" aria-labelledby="page-title">
+      <div class="glow-stripes" aria-hidden="true"></div>
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow"><span>Contact</span></p>
+          <h1 id="page-title" class="display">Every Great Story<br> Starts with A<br> <span class="grad">Conversation.</span></h1>
+          <figure class="contact-photo reveal">
+            <img src="assets/img/studio-still.webp" alt="Ayush Jain, founder of Storylane Studios" width="1600" height="900">
+          </figure>
+        </div>
+        <div class="contact-side">
+          <p class="lead underline">Tell us about your brand, your goals, and the challenges you’re facing. We’ll help you find the right path forward.</p>
+          <form class="form-card" id="contact-form" novalidate data-to="connect.storylanestudios@gmail.com">
+            <div class="form-grid">
+              <div class="field">
+                <label for="f-name">Your Name*</label>
+                <input id="f-name" name="name" type="text" autocomplete="name" placeholder="Enter Full Name" required>
+                <span class="err">Please enter your name.</span>
+              </div>
+              <div class="field">
+                <label for="f-email">Email*</label>
+                <input id="f-email" name="email" type="email" autocomplete="email" placeholder="Enter Valid Email Address" required>
+                <span class="err">Please enter a valid email address.</span>
+              </div>
+              <div class="field">
+                <label for="f-phone">Phone*</label>
+                <input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="Enter Contact Number" required pattern="[0-9+()\-\s]{7,}">
+                <span class="err">Please enter a contact number.</span>
+              </div>
+              <div class="field">
+                <label for="f-brand">Brand / Company*</label>
+                <input id="f-brand" name="brand" type="text" autocomplete="organization" placeholder="Enter Brand / Company Name" required>
+                <span class="err">Please enter your brand or company.</span>
+              </div>
+              <div class="field field--full">
+                <label for="f-service">What do you need help with?*</label>
+                <select id="f-service" name="service" required>
+                  <option value="" disabled selected>Select Service</option>
+                  <option>Brand Identity &amp; Positioning</option>
+                  <option>Websites &amp; Digital Experiences</option>
+                  <option>Commercial Ads &amp; Brand Films</option>
+                  <option>Product Photography</option>
+                  <option>Short-Form Content &amp; Reels</option>
+                  <option>Social Media Management &amp; Content Strategy</option>
+                  <option>Brand Integration Campaigns</option>
+                  <option>Performance Marketing</option>
+                  <option>Film Production</option>
+                  <option>Not sure yet</option>
+                </select>
+                <span class="err">Please choose a service.</span>
+              </div>
+              <div class="field field--full">
+                <label for="f-msg">Tell us about your brand *</label>
+                <textarea id="f-msg" name="message" placeholder="Your Brand, your goals, and the challenges you’re facing." required></textarea>
+                <span class="err">Please tell us a little about your brand.</span>
+              </div>
+            </div>
+            <button class="btn-amber" type="submit">Connect With Us <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/><path d="m9 12 2 2 4-4"/></svg></button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+      <div class="container contact-cards">
+          <a class="contact-card" href="mailto:connect.storylanestudios@gmail.com"><div><h2>Email</h2><p>connect.storylanestudios@gmail.com</p></div><span class="step-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span></a>
+          <a class="contact-card" href="tel:+918218527215"><div><h2>Phone</h2><p>+91 8218527215</p></div><span class="step-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h3l2 5-2 1a11 11 0 0 0 6 6l1-2 5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span></a>
+          <a class="contact-card" href="https://wa.me/918218527215" target="_blank" rel="noopener"><div><h2>WhatsApp</h2><p>+91 8218527215</p></div><span class="step-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/><path d="M9 9c0 3 2.5 6 6 6l1-1.5-2-1-1 1c-1-.5-2-1.5-2.5-2.5l1-1-1-2z"/></svg></span></a>
+          <a class="contact-card" href="https://www.instagram.com/storylane.studios/" target="_blank" rel="noopener"><div><h2>Instagram</h2><p>@storylane.studios</p></div><span class="step-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17" cy="7" r=".9"/></svg></span></a>
+          <div class="contact-card contact-card--full"><div><h2>Location</h2><p>Based in Mumbai. Building stories for brands across India.</p></div><span class="step-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6-5.6-6-11a6 6 0 0 1 12 0c0 5.4-6 11-6 11z"/><circle cx="12" cy="10" r="2.3"/></svg></span></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- @footer -->
+  <footer class="site-footer site-footer--page">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html#home" class="brand"><img src="assets/img/logo.png" alt="Storylane Studios" width="140" height="65" loading="lazy"></a>
+          <p>Turning brands into stories<br>worth remembering.</p>
+          <p class="founded">Founded by <a href="index.html#founder">Ayush Jain</a></p>
+          <ul class="socials">
+            <li><a href="mailto:connect.storylanestudios@gmail.com" aria-label="Email connect.storylanestudios@gmail.com"><img src="assets/img/icon-mail.png" alt="" width="58" height="58" loading="lazy"></a></li>
+            <li><a href="tel:+918218527215" aria-label="Call +91 8218527215"><img src="assets/img/icon-phone.png" alt="" width="58" height="58" loading="lazy"></a></li>
+            <li><a href="https://www.instagram.com/storylane.studios/" target="_blank" rel="noopener" aria-label="Instagram @storylane.studios"><img src="assets/img/icon-instagram.png" alt="" width="58" height="58" loading="lazy"></a></li>
+            <li><a href="https://wa.me/918218527215" target="_blank" rel="noopener" aria-label="WhatsApp +91 8218527215"><img src="assets/img/icon-whatsapp.png" alt="" width="58" height="58" loading="lazy"></a></li>
+          </ul>
+        </div>
+        <nav class="footer-col" aria-label="Quick links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#our-story">Our Story</a></li>
+            <li><a href="index.html#work">Work</a></li>
+            <li><a href="index.html#services">Service</a></li>
+            <li><a href="index.html#founder">Founder</a></li>
+            <li><a href="index.html#process">Process</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-col">
+          <h2>Services</h2>
+          <ul>
+            <li><a href="story-dna.html">Brand Identity &amp; Positioning</a></li>
+            <li><a href="work-websites.html">Websites &amp; Digital Experiences</a></li>
+            <li><a href="work-commercial.html">Commercial Ads &amp; Brand Films</a></li>
+            <li><a href="work-product-photography.html">Product Photography</a></li>
+            <li><a href="work-short-form.html">Short-Form Content &amp; Reels</a></li>
+            <li><a href="work-social-media.html">Social Media Management &amp; Content Strategy</a></li>
+            <li><a href="work-brand-integration.html">Brand Integration Campaigns</a></li>
+            <li><a href="index.html#services">Performance Marketing</a></li>
+            <li><a href="index.html#services">Film Production</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p><span class="copy" aria-hidden="true">©</span> 2026 Storylane Studios. All rights reserved.</p>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- /@footer -->
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

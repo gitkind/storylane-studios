@@ -1121,3 +1121,12 @@ section[id], article[id] { scroll-margin-top: calc(var(--header-h) - 1px); }
   .work-grid { grid-template-columns: 1fr; }
   .work-card h3 { font-size: 18px; }
 }
+
+/* Figma update (Nov 2026): header flush to top, linked work cards, Story DNA link */
+.site-header { border-top: 0; }
+.work-card { box-shadow: 0 0 34px rgba(237, 160, 60, .16); }
+.work-card > a { display: block; height: 100%; }
+.work-card > a:focus-visible { outline-offset: -3px; }
+.svc-more { display: inline-flex; align-items: center; gap: 8px; margin-top: 14px; font-size: 18px; color: var(--amber); }
+.svc-more svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; transition: transform .25s var(--ease); }
+.svc-more:hover svg { transform: translate(2px, -2px); }
